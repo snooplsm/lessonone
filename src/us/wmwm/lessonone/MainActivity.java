@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 	private Runnable countToAThousand = new Runnable() {
 		public void run() {
 			
-			for(int i = 1; i < 1000; i++) {
+			for(int i = 1; i <= 1000; i++) {
 				Log.d(MainActivity.class.getSimpleName(), String.valueOf(i));
 			}
 			
